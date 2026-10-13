@@ -4,7 +4,7 @@
 * Họ tên: Nguyễn Minh Khang
 * Lớp: 11_TTMT
 * MSSV: 1150070109
-* Link Youtube:
+* Link Youtube: https://www.youtube.com/@NguyenMinhKhang-yg6st
 
  Tóm tắt nội dung thực hành
 Bài lab tập trung vào việc triển khai firewall pfSense nâng cao, tích hợp hệ thống xác thực tập trung và áp dụng các kịch bản kiểm soát truy cập thực tế. Cụ thể, nội dung thực hành bao gồm:
