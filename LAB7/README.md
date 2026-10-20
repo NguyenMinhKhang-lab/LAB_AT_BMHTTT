@@ -9,7 +9,7 @@
 ### Tóm tắt nội dung thực hành
 Bài lab hướng dẫn xây dựng kiến trúc bảo vệ web (Web Protection) bằng cách kết hợp tường lửa pfSense làm gateway kiểm soát luồng và một máy chủ Web Proxy độc lập đảm nhiệm việc lọc nội dung lớp 7. Cụ thể, nội dung thực hành bao gồm:
 
-* Thiết lập mô hình phân tải bảo mật: Xây dựng máy chủ Web Proxy (chạy Ubuntu Server) sử dụng kết hợp các dịch vụ Squid, E2Guardian và ClamAV. Thay vì cài trực tiếp proxy lên tường lửa, pfSense được cấu hình bằng Firewall Rules để ép buộc toàn bộ lưu lượng web của người dùng phải đi qua Web Proxy (cổng 8080) và chặn các kết nối web trực tiếp (TCP/80, 443) nhằm chống bypass
+* Thiết lập mô hình phân tải bảo mật: Xây dựng máy chủ Web Proxy (chạy Ubuntu Server) sử dụng kết hợp các dịch vụ Squid, E2Guardian và ClamAV. Thay vì cài trực tiếp proxy lên tường lửa, pfSense được cấu hình bằng Firewall Rules để ép buộc toàn bộ lưu lượng web của người dùng phải đi qua Web Proxy (cổng 8080) và chặn các kết nối web trực tiếp (TCP/80, 443) nhằm chống bypass.
 * Thực thi các chính sách lọc nội dung web (Web Policies):
   * Hard block: Chặn triệt để và không cho phép bypass đối với các trang tìm việc làm (Job Search), chặn theo vị trí địa lý (Geo-Sim như Trung Quốc, Trung Đông) và các game cụ thể
   * Warning / Temporary bypass: Hiển thị trang cảnh báo đối với các nhóm nội dung như Vũ khí, Chính trị, Tôn giáo hoặc Streaming, cho phép người dùng xác nhận để vượt qua tạm thời (bypass trong 5 phút)
