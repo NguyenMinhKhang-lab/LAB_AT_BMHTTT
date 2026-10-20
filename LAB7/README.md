@@ -4,6 +4,7 @@
 * Họ tên: Nguyễn Minh Khang
 * Lớp: 11_TTMT
 * MSSV: 1150070109
+* Link Youtube: https://www.youtube.com/@NguyenMinhKhang-yg6st
 
 ### Tóm tắt nội dung thực hành
 Bài lab hướng dẫn xây dựng kiến trúc bảo vệ web (Web Protection) bằng cách kết hợp tường lửa pfSense làm gateway kiểm soát luồng và một máy chủ Web Proxy độc lập đảm nhiệm việc lọc nội dung lớp 7. Cụ thể, nội dung thực hành bao gồm:
